@@ -1,0 +1,37 @@
+ . Resource management
+ . Breeding elements
+
+___________________________________________
+ ______ _____ _______________ _____ _______ 
+|Income|Aerie|Training Center|Store|Library|
+|       ------------------------------------------------
+|  Income: 32 GP / min
+	[--105GP---|                     ] Max 500 GP
+
+   |+|-|  |25|%  Building - 8 BP / min
+	Queue: Store 35%        35/100 BP
+	       Library 0%	0/200 BP
+  
+   |+|-|  |25|%  Library - 8 RP / min  
+
+   |+|-|  |25|%  Training - 8 XP / min  
+
+   |+|-|  |25|%  Mage Tower - 8 MP / min  
+ ______ _____ _______________ _____ _______ 
+|Income|Aerie|Training Center|Store|Library|
+|------       --------------------------------------------
+| 	           	______________________________________________
+|  ____________|
+| |Gryphon 1		Griff (Male) Lv. 4   Stats
+  |------------		Job |Merchant  \/|   Intelligence  5
+  |Gryphon 2   |			     Strength	   5
+  |------------|                             Cunning       6
+  |Gryphon 3   |                             Arcane        4
+   ------------|______________________________________________
+  
+	Breeding:  Gryphon 1 (Male)    | Gryphon 3 (Female)
+		[-----------|    ] 80% complete
+
+ ______ _____ _______________ _____ _______ 
+|Income|Aerie|Training Center|Store|Library|
+|------------                 ------------------------------
