@@ -3,14 +3,32 @@ var Game = {
 	intMaxGP: 1000,
 	intCurrentGP: 0,
 	
+	GPIncomeDisplay: undefined,
+	GPMaxDisplay: undefined,
+	GPCurrentDisplay: undefined ,
+	
+	init: function(incomes) {
+		var self = this;
+		
+		this.GPIncomeDisplay = $('#primaryIncome');
+		this.GPMaxDisplay = $('#maxGP');
+		this.GPCurrentDisplay = $('#currentGP') ;
+		
+	}
+	
 	fnGenerateGP: function() {
-		If ()Game.intCurrentGP < intMaxGP) {
-		Game.intCurrentGP += intGPIncome;
+		If (this.intCurrentGP < this.intMaxGP) {
+		this.intCurrentGP += this.intGPIncome/10;
 		};
-	};
+
 	
 	this.handle = window.setInterval(function() {
-		self.fnGenerateGP();
-	}, 1000);
-	})
+		self.tick();
+		}, 100);
+	};
+	
+	tick: function() {
+		
+	}
+	
 }
